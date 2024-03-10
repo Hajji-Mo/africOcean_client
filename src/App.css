@@ -1,0 +1,127 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-orange: #ffa200;
+  --color-darkGrey: #c1af92;
+  --color-lightGrey: #d7ccba;
+  --color-lightGrey2: #f3f3f3;
+  --color-brown: #4f361a;
+  --color-brown: #603f18;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: var(--color-brown);
+}
+* p,
+* ul {
+  padding: 0;
+  margin: 0;
+}
+
+* ::-webkit-scrollbar {
+  width: 0;
+}
+* ::-webkit-scrollbar-thumb {
+  background-color: #f3f3f3;
+}
+
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: #fff;
+}
+
+.MuiCard-root:hover {
+  background: #fff !important;
+}
+
+.tex-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.buttonGroups {
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 3rem !important;
+  font-size: 0.6rem !important;
+  margin-top: 1rem !important;
+  border-radius: 3rem !important;
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+}
+.btnConained {
+  color: #fff !important;
+}
+.btnOutlined {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+@media screen and (min-width: 576px) {
+  .buttonGroups {
+    height: 2.7rem;
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .buttonGroups {
+    height: 2rem;
+    margin-bottom: 0 !important;
+    font-size: 0.6rem !important;
+    width: 6rem;
+  }
+}
+
+.chatPaper {
+  position: fixed;
+  right: 0;
+  margin-top: -5rem;
+  z-index: 100;
+  margin-right: 4rem;
+  width: 70vw;
+  height: 90vh;
+}
+.chat-search-from {
+  display: flex;
+  align-items: center;
+  border-radius: 2.3rem;
+  background-color: var(--color-white);
+  padding-left: 1rem;
+  margin: 2;
+  width: 100%;
+  height: 2rem;
+  box-sizing: border-box;
+}
+.chat-search-icon {
+  margin-top: 0.3rem;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+}
+.chat-search-from input {
+  border: none;
+  border-radius: 2.3rem;
+  outline: none;
+  padding-left: 0.3rem;
+}
+
+.cart-Badge {
+  background-color: #603f18 !important;
+}
+.MuiTypography-root {
+  margin: 0 !important;
+}
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: 1300px !important;
+  }
+}
